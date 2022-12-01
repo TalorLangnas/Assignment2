@@ -8,6 +8,7 @@ char x;
 int Mat[10][10];
 int tmpMat[10][10];
 int i, j;
+int ans;
 
 scanf("%c", &x);
 while(x != 'D'){
@@ -26,24 +27,24 @@ if(x == 'A'){
 if(x == 'B'){
    scanf("%d" ,&i);
    scanf("%d", &j);
-   int ans = B(tmpMat, i, j);
+   ans = B(tmpMat, i, j);
    if(ans==0){
-    printf("False");
+    printf("False\n");
    }
    else{   
-   printf("True");
+   printf("True\n");
    }
 }
 
 if(x == 'C'){
     scanf("%d" ,&i);
     scanf("%d", &j);
-    int ans = C(tmpMat, i, j);
+    ans = C(tmpMat, i, j);
     if(ans == 0){
-       printf("-1"); 
+       printf("-1\n"); 
     }
     else{
-        printf("%d", ans);
+        printf("%d\n", ans);
     }
     
 }
