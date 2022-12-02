@@ -1,4 +1,7 @@
-void A(int[10][10]);
-int B(int[10][10], int, int);
-int C(int[10][10], int, int);
-void iniDistMat(int[10][10]);
+#define SIZE 10
+void A(int[SIZE][SIZE]);
+int B(int[SIZE][SIZE], int, int);
+int C(int[SIZE][SIZE], int, int);
+void iniDistMat(int[SIZE][SIZE]);
+int getMin(int,int);
+

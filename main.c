@@ -4,20 +4,21 @@
 
 int main(){
 
-char x;
-int Mat[10][10];
-int tmpMat[10][10];
+char x = 'x';
+int Mat[SIZE][SIZE];
+int tmpMat[SIZE][SIZE];
 int i, j;
 int ans;
 
-scanf("%c", &x);
-while(x != 'D'){
 
+while(x != 'D'){
+    
+scanf("%c", &x);
 
 if(x == 'A'){
     A(Mat);
-    for(int i = 0; i <10; i++){
-            for(int j = 0; j <10; j++){
+    for(int i = 0; i <SIZE; i++){
+            for(int j = 0; j <SIZE; j++){
                tmpMat[i][j] = Mat[i][j];
                }
             }
@@ -49,7 +50,6 @@ if(x == 'C'){
     
 }
 
-scanf("%c", &x);
 }
 
 
