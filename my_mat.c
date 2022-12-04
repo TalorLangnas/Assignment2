@@ -66,12 +66,3 @@ int getMin(int x, int y){
 
 
 
-// void printMat(int M[SIZE][SIZE]){
-//     for(int i=0; i<SIZE; i++){
-//         printf("[");
-//         for(int j=0; j<SIZE; j++){
-//             printf("%d, ",M[i][j]);
-//         }
-//         printf("]\n");
-//     }
-// }
